@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arkane - Survey</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="formback" style="background-image: url('images/arxcover.jpg');">
+    <div class="topbardiv">
+        <nav>
+            <a href="index.html" class="topbartext">HOME</a>
+            <a href="history.html" class="topbartext">HISTORY</a>
+            <a href="games.html" class="topbartext">GAMES</a>
+            <a href="arx.html" class="topbartext">ARX FATALIS</a>
+            <a href="survey.html" class="topbarcurrent"><h1 class="topbarh1">SURVEY</h1></a>
+        </nav>
+    </div>
+    <div class="surveytopdiv">
+        <img class="surveyimg" src="images/image12.jpg" alt="Promotional art for Arx Fatalis of the main character holding a sword standing in an archway.">
+        <p class="surveythanks">If you enjoyed this website and felt like you learnt something about Arkane, or if you would like to just give a short review of the site, please complete the survey below!! It would be really helpful to know what I could do to improve, and I would also like to know maybe how I improved your day. Thank you :)</p>
+    </div>
+    <div>
+        <form action="mailto:isza.csongi@gmail.com" method="post">
+            <fieldset id="caughtattentionmost">
+                <p>Which game caught your attention the <i><b>most</b></i> out of these?</p>
+                    <input type="radio" id="arxattentionmost" value="Arx_Fatalis" name="caughtattentionmost">
+                    <label for="arxattentionmost">Arx Fatalis</label>
+                    <input type="radio" id="messiahattentionmost" value="Dark_Messiah" name="caughtattentionmost">
+                    <label for="messiahattentionmost">Dark Messiah</label>
+                    <input type="radio" id="preyattentionmost" value="Prey" name="caughtattentionmost">
+                    <label for="preyattentionmost">Prey</label>
+                    <input type="radio" id="dishattentionmost" value="Dishonored" name="caughtattentionmost">
+                    <label for="dishattentionmost">Dishonored</label>
+            </fieldset>
+            <fieldset id="caughtattentionleast">
+                <p>Which game caught your attention the <i><b>least</b></i> out of these?</p>
+                    <input type="radio" id="arxattentionleast" value="Arx_Fatalis" name="caughtattentionleast">
+                    <label for="arxattentionleast">Arx Fatalis</label>
+                    <input type="radio" id="messiahattentionleast" value="Dark_Messiah" name="caughtattentionleast">
+                    <label for="messiahattentionleast">Dark Messiah</label>
+                    <input type="radio" id="preyattentionleast" value="Prey" name="caughtattentionleast">
+                    <label for="preyattentionleast">Prey</label>
+                    <input type="radio" id="dishattentionleast" value="Dishonored" name="caughtattentionleast">
+                    <label for="dishattentionleast">Dishonored</label>
+            </fieldset>
+            <fieldset id="heardof">
+                <p>Which of these games have you <i><b>heard</b></i> of before?</p>
+                    <input type="checkbox" id="arxheardof" value="Arx_Fatalis" name="heardof">
+                    <label for="arxheardof">Arx Fatalis</label>
+                    <input type="checkbox" id="messiahheardof" value="Dark_Messiah" name="heardof">
+                    <label for="messiahheardof">Dark Messiah</label>
+                    <input type="checkbox" id="preyheardof" value="Prey" name="heardof">
+                    <label for="preyheardof">Prey</label>
+                    <input type="checkbox" id="dishheardof" value="Dishonored" name="heardof">
+                    <label for="dishheardof">Dishonored</label>
+            </fieldset>
+            <fieldset id="own">
+                <p>Which of these games do you <b><i>own</i></b>?</p>
+                    <input type="checkbox" id="arxown" value="Arx_Fatalis" name="own">
+                    <label for="arxown">Arx Fatalis</label>
+                    <input type="checkbox" id="messiahown" value="Dark_Messiah" name="own">
+                    <label for="messiahown">Dark Messiah</label>
+                    <input type="checkbox" id="preyown" value="Prey" name="own">
+                    <label for="preyown">Prey</label>
+                    <input type="checkbox" id="dishown" value="Dishonored" name="own">
+                    <label for="dishown">Dishonored</label>
+            </fieldset>
+            <fieldset id="1to5">
+                <p>How did you find the quality of the page?</p>
+                    <input type="radio" id="rating1" value="1" name="1to5">
+                    <label for="rating1">1</label>
+                    <input type="radio" id="rating2" value="2" name="1to5">
+                    <label for="rating2">2</label>
+                    <input type="radio" id="rating3" value="3" name="1to5">
+                    <label for="rating3">3</label>
+                    <input type="radio" id="rating4" value="4" name="1to5">
+                    <label for="rating4">4</label>
+                    <input type="radio" id="rating5" value="5" name="1to5">
+                    <label for="rating5">5</label>
+            </fieldset>
+            <fieldset id="nameemail">
+                    <label for="name">Enter your name: </label>
+                    <input type="text" id="name" name="nameemail">
+                    <label for="email">Your email address:</label>
+                    <input type="email" id="email" name="nameemail">
+            </fieldset>
+            <fieldset id="other">
+                <p>If you have any other inputs:</p>
+                <textarea name="other" maxlength="1024"></textarea>
+        </fieldset>
+            <fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Send">
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <p class="footertext">
+            Created by Csongor Isza (SSW494) | Between 2022.04.12-2022.05.06
+        </p>
+    </footer>
+</body>
+</html>
