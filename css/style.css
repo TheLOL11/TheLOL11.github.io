@@ -4,19 +4,19 @@ body {
 }
 
 a:link {
-    color: #7D7D7D;
+    color: #FED886;
 }
   
 a:visited {
-    color: #404040;
+    color: #FFAE00;
 }
   
 a:hover {
-    color: #949494;
+    color: #FF7300;
 }
   
 a:active {
-    color: #333333;
+    color: #C25A00;
 }
 
 h1 {
@@ -56,7 +56,7 @@ aside {
     border-radius: 5px;
     font-size: 1em;
     color: rgb(20,20,20);
-    background-color: lightgray;
+    background-color: darkgray;
 }
 
 form {
