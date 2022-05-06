@@ -1,22 +1,22 @@
 body {
-    background-color: rgb(70, 70, 70);
+    background-color: #878787;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 a:link {
-    color: #FED886;
+    color: #ffba24;
 }
   
 a:visited {
-    color: #FFAE00;
+    color: #ffcf66;
 }
   
 a:hover {
-    color: #FF7300;
+    color: #ffa047;
 }
   
 a:active {
-    color: #C25A00;
+    color: #ff7b00;
 }
 
 h1 {
@@ -64,7 +64,7 @@ form {
     border-radius: 10px;
     padding: 1%;
     text-align: center;
-    font-size: 2.5vh;
+    font-size: 1.2rem;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -77,15 +77,28 @@ textarea {
 header {
     margin-right: 20%;
 }
-
-.footertext {
+footer {
     font-size: 1.25em;
-    color: rgb(20,20,20);
+    color: black;
+}
+
+.pushaway a {
+    position: absolute; 
+    left: -9999px;
+}
+.pushaway a:focus {
+    position: static;
+    background-color: aliceblue;
+    color: black;
+}
+
+.footertextsurvey {
+    color: #e6f41f;
 }
 
 .indexbuttonsdivup {
     margin-top: -20%;
-    background-color: lightslategray;
+    background-color: #2e2e2e;
     margin-left: 20%;
     margin-right: 20%;
     padding: 1%;
@@ -94,7 +107,7 @@ header {
 }
 .indexbuttonsdivbot {
     margin-top: 10%;
-    background-color: lightslategray;
+    background-color: #2e2e2e;
     margin-left: 20%;
     margin-right: 20%;
     padding: 1%;
@@ -120,11 +133,12 @@ header {
 
 .topbarh1 {
     display: inline;
+    color: #ffae00;
 }
 
 .topbartext {
     font-size: 1.4em;
-    background-color: lightslategray;
+    background-color: #2e2e2e;
     margin-right: 3%;
     margin-left: 3%;
     padding: 1%;
@@ -139,7 +153,7 @@ header {
     margin-left: 3%;
     padding: 1.5%;
     border-radius: 10px;
-    background-color: lightslategray;
+    background-color: #2e2e2e;
     text-decoration: none;
 }
 
@@ -175,10 +189,26 @@ header {
     padding-top: 2%;
 }
 .arkane-logo {
-    max-width: 100%;
+    width: 100%;
 }
-.games-img {
-    max-width: 100%;
+.gamesimg {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gamesarticle {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.dishonoredimg {
+    width: 100%;
+}
+.dishonoredarticle {
+    margin-left: 3%;
+}
+.dishonoredtitle {
+    margin-left: 18%;
 }
 
 .historyimage {
@@ -196,6 +226,11 @@ header {
 }
 .videodesc {
     margin-right: -30%
+}
+.videodescback {
+    background-color: #2e2e2e;
+    padding: 1%;
+    border-radius: 10px;
 }
 .leveltable {
     border: 0.2vh solid black;
@@ -222,12 +257,12 @@ header {
     border-radius: 70%;
 }
 .surveythanks {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 15px;
     padding: 1%;
     margin-left: 4%;
     margin-right: 4%;
-    color: darkred;
+    color: #750066;
 }
 
 .formback {

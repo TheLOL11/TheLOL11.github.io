@@ -6,7 +6,10 @@
     <title>Arkane - Survey</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
-<body class="formback" style="background-image: url('images/arxcover.jpg');">
+<body class="formback" style="background-image: url('images/arxcover.jpg');"> <!-- Valamiért itt csak akkor működött ha ide raktam be direktbe, stylesheeten át nem.-->
+    <nav class="pushaway">
+        <a href="#content">Jump to content</a>
+    </nav>
     <div class="topbardiv">
         <nav>
             <a href="index.html" class="topbartext">HOME</a>
@@ -17,7 +20,7 @@
         </nav>
     </div>
     <div class="surveytopdiv">
-        <img class="surveyimg" src="images/image12.jpg" alt="Promotional art for Arx Fatalis of the main character holding a sword standing in an archway.">
+        <img id="content" class="surveyimg" src="images/image12.jpg" alt="Promotional art for Arx Fatalis of the main character holding a sword standing in an archway.">
         <p class="surveythanks">If you enjoyed this website and felt like you learnt something about Arkane, or if you would like to just give a short review of the site, please complete the survey below!! It would be really helpful to know what I could do to improve, and I would also like to know maybe how I improved your day. Thank you :)</p>
     </div>
     <div>
@@ -96,7 +99,7 @@
         </form>
     </div>
     <footer>
-        <p class="footertext">
+        <p class="footertextsurvey">
             Created by Csongor Isza (SSW494) | Between 2022.04.12-2022.05.06
         </p>
     </footer>

@@ -7,6 +7,9 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+    <nav class="pushaway">
+        <a href="#content">Jump to content</a>
+    </nav>
     <div class="topbardiv">
         <nav>
             <a href="index.html" class="topbartext">HOME</a>
@@ -23,7 +26,7 @@
          </colgroup>
         <tr>
             <td>
-                <video width="480" height="270" controls poster="images/thumbnail.png">
+                <video id="content" width="480" height="270" controls poster="images/thumbnail.png">
                     <source src="videos/intro.mp4" type="video/mp4">
                 </video>
                 <a href="description.xhtml"><h3 class="videodesc">A description of the events in the video</h3></a>
@@ -44,16 +47,16 @@
         <tr>
             <td>
                 <table class="leveltable">
+                    <caption>
+                        <details id="level-table">
+                            <summary class="leveltabledesc">A table of the different levels in Arx</summary>
+                            <p>This summarizes what each different level contains in the game. There are a total of 8, but they are divided into different maps.</p>
+                        </details>
+                    </caption>
                     <colgroup>
                         <col span="1" style="width: 20%;">
                         <col span="1" style="width: 80%;">
                     </colgroup>
-                    <caption>
-                        <details id="level-table">
-                            <summary>A table of the different levels in Arx</summary>
-                            <p class="leveltabledesc">This summarizes what each different level contains in the game. There are a total of 8, but they are divided into different maps.</p>
-                        </details>
-                    </caption>
                     <tr>
                         <th class="leveltablecell">Level</th>
                         <th class="leveltablecell">Description</th>
@@ -91,7 +94,6 @@
                         <td class="leveltablecell">The lost Dwarven Kingdom is here, abandoned for a dark reason... It is also the level on which the bottom of the Crypt is located, with king Poxellus' Treasure found here, alongside a boss fight for it.</td>
                     </tr>
                 </table>
-                </details>
             </td>
             <td class="levelimagecell">
                 <img src="images/image11.png" class="levelimage" alt="An image showing the different connections between the levels.">
@@ -99,7 +101,7 @@
         </tr>
     </table>
     <footer>
-        <p class="footertext">
+        <p>
             Created by Csongor Isza (SSW494) | Between 2022.04.12-2022.05.06
         </p>
     </footer>
